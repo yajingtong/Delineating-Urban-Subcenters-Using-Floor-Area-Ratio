@@ -4,7 +4,7 @@ library(purrr)
 library(tibble)
 
 centers_rds <- "data/centers.rds"
-buildings_path <- "outputs/all_city_M.shp"
+buildings_path <- "data/all_city_M.shp"
 grid_rds <- "outputs/all_city_grids_100rings_full_500m.rds"
 output_gpkg <- "data/cells_explicit_attribute_allocation_500m.gpkg"
 output_layer <- "all_city_cells_explicit_attribute_allocation_500m"
